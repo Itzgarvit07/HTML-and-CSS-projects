@@ -1,0 +1,71 @@
+*{
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+
+}
+#animate{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+   border: 20px solid black;
+   border-top: 20px solid rgb(253 239 58);
+   animation: 2s infinite linear  mac;
+}
+@keyframes mac{
+    from{
+        transform: rotate(0);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.circle2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+   border: 20px solid rgb(196, 241, 255);
+   border-bottom: 20px solid orangered ;
+   animation: 2s infinite linear  hack;
+   position: absolute;
+
+}
+@keyframes hack{
+    from{
+        transform: rotate(0);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.circle3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   border: 15px solid rgb(250 163 100);;
+   border-right: 15px solid  rgb(1 41 174);
+   animation: 2s infinite linear  mack;
+   position: absolute;
+   
+}
+@keyframes mack{
+    from{
+        transform: rotate(0);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+  
